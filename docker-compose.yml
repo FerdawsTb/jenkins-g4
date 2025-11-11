@@ -1,0 +1,5 @@
+services: 
+web: 
+image: ferdawsteyeb/monapp:latest 
+ports: - "8082:81" 
+restart: unless-stopped
